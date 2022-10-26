@@ -21,7 +21,7 @@ export default NextAuth({
       name: "Credentials",
       async authorize(credentials, req) {
         connectMongo().catch((error) => {
-          error: "Connection Failed...!";
+          error: "Connection Failed!";
         });
 
         // check user existance
