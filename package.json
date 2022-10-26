@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "bcryptjs": "^2.4.3",
     "formik": "^2.2.9",
+    "jquery": "^3.6.1",
     "next": "12.3.1",
     "next-auth": "^4.15.0",
     "react": "18.2.0",

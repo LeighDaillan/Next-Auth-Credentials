@@ -11,10 +11,10 @@ const HomePage = function () {
         <title>Home Page</title>
       </Head>
 
-      <div className="grid grid-cols-2 gap-4 items-center py-24 mx-10">
+      <div className="grid grid-cols-2 gap-4 items-center sm:h-screen py-24 mx-10">
         <Image
           src={codeImg}
-          className="justify-self-end"
+          className="justify-self-end hidden md:block "
           alt="code image"
           objectFit="contain"
         />
@@ -23,7 +23,7 @@ const HomePage = function () {
             Hello!
           </h1>
           <p className="text-xl md:text-2xl lg:text-4xl leading-relaxed">
-            I'm <span>Daillan Leigh Franco</span>, a <br />
+            I&apos;m <span>Daillan Leigh Franco</span>, a <br />
             future Front End Developer
           </p>
         </div>

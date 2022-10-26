@@ -125,6 +125,7 @@ const Login = function () {
                   src={"/assets/google.png"}
                   width="20"
                   height="20"
+                  alt="google logo"
                 ></Image>
               </button>
             </div>
@@ -139,12 +140,13 @@ const Login = function () {
                   src={"/assets/github.png"}
                   width="25"
                   height="25"
+                  alt="github logo"
                 ></Image>
               </button>
             </div>
           </form>
           <p className="text-center text-gray-400">
-            Don't have an account yet?{" "}
+            Don&apos;t have an account yet?{" "}
             <Link href={"/register"}>
               <a className="text-blue-700 underline">Sign Up</a>
             </Link>
