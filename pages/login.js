@@ -148,7 +148,7 @@ const Login = function () {
           <p className="text-center text-gray-400">
             Don&apos;t have an account yet?{" "}
             <Link href={"/register"}>
-              <a className="text-blue-700 underline">Sign Up</a>
+              <a className="text-blue-700  underline">Sign Up</a>
             </Link>
           </p>
         </section>
