@@ -49,7 +49,7 @@ const Register = function () {
 
         <section className="w-3/4 mx-auto flex flex-col">
           <div className="title">
-            <h1 className="text-gray-800 text-3xl font-bold py-4">Register</h1>
+            <h1 className="text-gray-800 text-3xl  font-bold py-4">Register</h1>
             <p className="w-3/4 mx-auto text-gray-400 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing?
             </p>
