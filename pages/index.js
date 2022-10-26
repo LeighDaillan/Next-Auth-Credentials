@@ -11,7 +11,7 @@ const HomePage = function () {
         <title>Home Page</title>
       </Head>
 
-      <div className="grid grid-cols-2 gap-4 items-center sm:h-screen py-24 mx-10">
+      <div className="grid grid-cols-2 gap-4  items-center sm:h-screen py-24 mx-10">
         <Image
           src={codeImg}
           className="justify-self-end hidden md:block "
