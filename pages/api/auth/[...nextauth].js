@@ -10,8 +10,8 @@ export default NextAuth({
   providers: [
     // Google Provider
     GoogleProvider({
-      clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_SECRET,
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
     GithubProvider({
       clientId: process.env.GITHUB_ID,
