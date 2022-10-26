@@ -1,0 +1,53 @@
+> Create nextjs with tailwind css
+
+> Layout components
+  > Login Panel
+  > Register Panel
+    > Styling the register and login page
+
+> Install Formik
+  > Get the value of the input
+  > To validate the login and register form
+
+> Install Next/Auth
+  > Add [...nextauth].js file and add the provider that you will use
+
+> Add Google Sign In
+  > Google Client Id
+  > Google Secret Id
+  > Save it in .env.local
+
+> Add Gihub Sign In
+  > Github Id
+  > Github Secret Id
+  > Save it in .env.local
+
+> User getServerSideProps to protect route
+
+> Create validate.js components to Validate Sign In and Sign Up Input
+
+> Create MongoDB database in their website 
+  > Get the mongoURL and storer it to .env.local
+  > create database folder with conn.js where you will connect your web app
+    in mongoDb database
+
+> Create Schema for users to use in sign up endpoint
+
+> Register function
+  > will send http POST to /api/auth/signup
+
+> Create sign up function endpoint
+  > will only accept POST method
+  > check the connection of the database
+  > check if the user is already existed
+  > hash the password using bcryptjs
+  > add the users data in the database
+
+> In [...nextauth].js file
+  > add credentials provider 
+  > check the connection
+  > check if the user exists in database if not throw an error
+  > compare the password form user input to password in database
+  > check if the username and password is match in the user in database
+  
+
