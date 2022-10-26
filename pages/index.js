@@ -7,6 +7,10 @@ import codeImg from "../public/assets/code.png";
 const HomePage = function () {
   return (
     <Fragment>
+      <Head>
+        <title>Home Page</title>
+      </Head>
+
       <div className="grid grid-cols-2 gap-4 items-center py-24 mx-10">
         <Image
           src={codeImg}
